@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tag-translation-assistant"
+version = "0.1.0"
+description = ""
+authors = ["Ganbat"]
+readme = "README.md"
+packages = [{include = "tag_translation_assistant"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tomlkit = "^0.11.6"
+deepl = "^1.12.0"
+deep-translator = "^1.10.1"
+pykakasi = "^2.2.1"
+pybooru = "^4.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
